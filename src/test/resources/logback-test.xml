@@ -1,0 +1,16 @@
+<configuration>
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Turn off Thymeleaf debug logs -->
+    <logger name="org.thymeleaf" level="ERROR"/>
+    <logger name="com.intuit.karate" level="INFO"/>
+    <logger name="org.apache" level="ERROR"/>
+</configuration>
