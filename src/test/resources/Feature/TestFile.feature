@@ -4,5 +4,7 @@
       * def name = '<Value>'
       * print name
       Examples:
-        | Value       |
-        | Harikrishna |
+        | Value          |
+        | Harikrishna    |
+        | Vikramkrishna  |
+        | kalyan krishna |
