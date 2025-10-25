@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0835b122-08a0-42a0-945c-0f417cf89f84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/KarateTestRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/KarateTestRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/TestFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/TestFile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/KarateTestRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testkarate/KarateTestRunnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +39,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PostgresHelper">
+    <configuration name="PostgresHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.testkarate.PostgresHelper" />
+      <module name="KarateAutomationTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testkarate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KarateTestRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KarateAutomationTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.*" />
+          <option name="PATTERN" value="org.testkarate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org" />
-      <option name="MAIN_CLASS_NAME" value="org.KarateTestRunnerTest" />
+      <option name="PACKAGE_NAME" value="org.testkarate" />
+      <option name="MAIN_CLASS_NAME" value="org.testkarate.KarateTestRunnerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PostgresHelper" />
         <item itemvalue="JUnit.KarateTestRunnerTest" />
       </list>
     </recent_temporary>
